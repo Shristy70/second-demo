@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'monstserrat';
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.navbar{
+/* background-color: brown; */
+width: 100%;
+height: 150px;
+display: flex;
+justify-content: flex-start;
+padding: 0 150px;
+gap: 45px;
+align-items: center;
+position: fixed;
+z-index: 99;
+}
+.navbar img{
+    height: 75px;
+}
+.navbar h4{
+    text-transform: uppercase;
+}
+video{
+height: 100%;
+width: 100%;
+object-fit: cover;
+position: fixed;
+z-index: -1;
+}
+#main{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.429);
+}
+#page-1{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    
+}
+#page-1 h1{
+    font-size: 100px;
+    font-weight: 900;
+    text-transform: uppercase;
+    position: relative; 
+   
+}
+#page-1 h1::before{
+    content: "EAT.DRINK.PLAY";
+    position: absolute;
+    color: black;
+    top: -30;
+    left: -60;
+    /* -webkit-text-stroke: 1px #95c11e;
+    z-index: -1; */
+}
+
+#page-1 h2{
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+#page-1 p{
+    font-size: 20px;
+    width: 40%;
+    font-weight: 500;
+
+}
